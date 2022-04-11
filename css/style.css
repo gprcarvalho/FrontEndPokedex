@@ -8,16 +8,22 @@
 
 .center {
     max-width: 1100;
-    margin: 0 auto;
+    margin: 2 auto;
     padding: 0 2%;
     display: flex;
     flex-wrap: wrap;
-    
+    position: relative; bottom: 50px;
+}
+.header-all{
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
 }
 
 header {
-    background-color: antiquewhite;
-    padding: 20px 0;
+    background-color: #2B59C3;
+    padding: 15px 0;
     border-bottom: 1px solid rgb(200, 200, 200);
 }
 
@@ -36,10 +42,17 @@ header {
 .menu {
     width: 80%;
     text-align: right;
+    text-align: left;
+    position: relative; left: 30px; top: 2px;
+}
+.menu-home{
+    width: 80%;
+    text-align: left;
+    position: relative; 
 }
 
 .menu a {
-    color: #124265;
+    color: white;
     font-size: 14px;
     text-decoration: none;
     margin-right: 20px;
@@ -48,11 +61,11 @@ header {
 }
 
 .menu a:hover {
-    color: #007bff
+    color: #1f2527
 }
 
 .menu .btn-menu {
-    background-color: #007bff;
+    background-color: #000000;
     display: inline-block;
     padding: 8px 16px;
     color: white;
@@ -60,7 +73,7 @@ header {
 }
 
 .menu .btn-menu:hover {
-    background-color: #124265;
+    background-color: #1f2527;
     color: white;
 }
 
@@ -77,19 +90,19 @@ header {
 }
 
 .main_cta h2 {
-    color: #16507b;
+    color: #000000;
     font-size: 40px;
 }
 
 .main_cta p {
-    color: rgb(235, 173, 92);
+    color: #2B59C3;
     font-size: 19px;
     margin: 10px 0;
     font-style: italic;
 }
 
 .main_cta button {
-    background-color: #007bff;
+    background-color: #000000;
     display: inline-block;
     padding: 8px 20px;
     color: white;
@@ -106,7 +119,7 @@ header {
 
 .diferencial-single {
     border-radius: 10px;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     width: 23%;
     margin-right: 2%;
     padding: 50px 20px;
@@ -118,6 +131,7 @@ section.main {
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 70px 0;
+    background-color: #E5E5E5;
 }
 
 
@@ -203,7 +217,7 @@ Responsividade
 }
 
 .card-img-top {
-    background-color: lightgray;
+    background-color: white;
     width: 255px;
     height: 255px;
     max-width: auto;
@@ -211,7 +225,10 @@ Responsividade
 }
 
 .card {
-    border: none;
+    border: 1;
+    background-color: white;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .titulo {
@@ -222,6 +239,7 @@ Responsividade
     padding-bottom: 15px;
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 85px;
 }
 
 .container {
@@ -236,7 +254,7 @@ Responsividade
 
 .row {
     margin-left: 73px;
-    ;
+    margin-bottom: 70px;
 }
 
 p {
@@ -251,23 +269,26 @@ p {
     bottom: 10px
 }
 
-.card:hover .card-img-top {
-    transform: scale(1.15);
+.card:hover {
+    transform: scale(1.05);
 }
-
 
 .logo img {
     max-width: 40px;
 }
 
+.background {
+    background-color: #E5E5E5;
+}
 
 .container-footer img{
     width: 40px;
-    
+    position: relative; top: 70px;
 }
 
 .container-footer p{
     text-align: center;
     font-size: 14px;
 }
+
 
