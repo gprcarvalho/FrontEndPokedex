@@ -68,6 +68,12 @@ header {
     width: 100%;
     text-align: center;
     margin: 60px 0;
+    
+}
+
+.foto-central-index {
+    text-align: center;
+    
 }
 
 .main_cta h2 {
@@ -114,18 +120,11 @@ section.main {
     padding: 70px 0;
 }
 
-.diferencial-single i {
-    color: #124265;
-    font-size: 23px;
-    padding-bottom: 20px;
-        
-}
-
 
 .diferencial-single p {
     color: #124265;
     font-size: 14px;
-    text-align: center;
+    text-align:left;
 }
 
 
@@ -174,6 +173,7 @@ Responsividade
     margin: 0px 20px;
     
 }
+
 
  
 /* CSS pokedex.html */
@@ -230,6 +230,8 @@ Responsividade
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    font-size: 14px;
+    
 }
 
 .row {
@@ -257,3 +259,15 @@ p {
 .logo img {
     max-width: 40px;
 }
+
+
+.container-footer img{
+    width: 40px;
+    
+}
+
+.container-footer p{
+    text-align: center;
+    font-size: 14px;
+}
+
