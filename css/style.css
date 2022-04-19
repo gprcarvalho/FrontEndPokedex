@@ -22,7 +22,7 @@
 }
 
 header {
-    background-color: #2B59C3;
+    background-color: #6867AC;
     padding: 15px 0;
     border-bottom: 1px solid rgb(200, 200, 200);
 }
@@ -89,6 +89,11 @@ header {
     
 }
 
+.foto-central-index img:hover {
+    transform: scale(1.05);
+
+}
+
 .main_cta h2 {
     color: #000000;
     font-size: 40px;
@@ -123,6 +128,10 @@ header {
     width: 23%;
     margin-right: 2%;
     padding: 50px 20px;
+}
+
+.diferencial-single:hover {
+    transform: scale(1.05);
 }
 
 section.main {
