@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bold;
+}
+
+.center {
+    max-width: 1100;
+    margin: 2 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative; bottom: 50px;
+}
+.header-all{
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+}
+
+header {
+    background-color: #8674BF;
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.logo {
+    color: #16507b;
+    
+    
+}
+
+.logo h2 {
+    font-weight: normal;
+    font-size: 18px;
+    font-size: 22px;
+}
+
+.menu {
+    width: 80%;
+    text-align: right;
+    text-align: left;
+    position: relative; left: 30px; top: 2px;
+}
+.menu-home{
+    width: 80%;
+    text-align: left;
+    position: relative; 
+}
+
+.menu a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+   /* transition: 0.75s; */
+   
+}
+
+.menu a:hover {
+    color: #1f2527
+}
+
+.menu .btn-menu {
+    background-color: #000000;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+}
+
+.menu .btn-menu:hover {
+    background-color: #1f2527;
+    color: white;
+}
+
+.main_cta {
+    width: 100%;
+    text-align: center;
+    margin: 60px 0;
+    
+}
+
+.foto-central-index {
+    text-align: center;
+    
+}
+
+.foto-central-index img:hover {
+    transform: scale(1.05);
+
+}
+
+.main_cta h2 {
+    color: #000000;
+    font-size: 40px;
+}
+
+.main_cta p {
+    color: #2B59C3;
+    font-size: 19px;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.main_cta button {
+    background-color: #000000;
+    display: inline-block;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 6px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.diferenciais {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 23%;
+    margin-right: 2%;
+    padding: 50px 20px;
+    
+    
+}
+
+.diferencial-single:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+section.main {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 70px 0;
+    background-color: #D8C8EE;
+    
+}
+
+
+.diferencial-single p {
+    color: #124265;
+    font-size: 14px;
+    text-align:justify;
+}
+
+.diferencial-single img {
+    height: 46px;
+    margin: 0px 0px 20px 160px;
+}
+
+
+
+/*
+Responsividade
+*/
+
+@media screen and (max-width: 768px) {
+    .diferencial-single {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.section-projeto {
+    padding: 80px 0;
+
+}
+
+
+.chamada-projeto {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.chamada-projeto h2 {
+    color:#124265;
+    text-transform: uppercase;
+}
+
+.chamada-projeto p {
+    font-size: 14px;
+    color: #124265;
+    margin: 10px 0px;
+}
+
+.conteudo-projeto {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo-projeto p {
+    font-size: 16px;
+    color:#124265;
+    margin: 0px 20px;
+    
+}
+
+
+ 
+/* css pokedex.html */
+
+.bg-light {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.icon-nav-bar {
+    max-width: auto;
+    max-height: auto;
+    height: 35px;
+    width: 35px;
+    margin-right: 8px;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-link-active {
+    color: white !important;
+    position: relative;
+    left: 20px;
+    top: 1px;
+    margin: 0 5px;
+}
+
+.card-img-top {
+    background-color: white;
+    width: 255px;
+    height: 255px;
+    max-width: auto;
+    max-height: auto;
+}
+
+.card {
+    border: 1;
+    background-color: white;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 85px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 14px;
+    
+}
+
+.row {
+    margin-left: 73px;
+    margin-bottom: 70px;
+}
+
+p {
+    position: relative;
+    right: 13px;
+    bottom: 12px;
+}
+
+.card-text {
+    position: relative;
+    right: 15px;
+    bottom: 10px
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.logo img {
+    max-width: 40px;
+}
+
+.background {
+    background-color: #D8C8EE;
+}
+
+.container-footer img{
+    width: 40px;
+    position: relative; top: 70px;
+}
+
+.container-footer p{
+    text-align: center;
+    font-size: 14px;
+}
+
